@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#controls {
+    margin-bottom: 10px;
+}
+
+#map {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #000;
+}
+
+.civilization {
+    position: absolute;
+    width: 15px; /* Ajuste de tamanho */
+    height: 15px; /* Ajuste de tamanho */
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.territory {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.resource {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+#strength-display {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.health-bar {
+    height: 10px;
+    margin-top: 5px;
+    background-color: grey;
+}
+
+.fireball {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    transition: all 1s linear;
+}

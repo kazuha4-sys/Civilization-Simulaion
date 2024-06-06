@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civilization Simulation</title>
+    <link rel="stylesheet" href="css/styles_jogo.html.css">
+    <link rel="shortcut icon" href="images/transferir (1).ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Civilization Simulator</h1>
+    <div id="controls">
+        <button id="start-btn">Start</button>
+        <button id="pause-btn">Pause</button>
+        <button id="reset-btn">Reset</button>
+    </div>
+    <br>
+    <div id="map">
+        <div id="civilization1" class="civilization red"></div>
+        <div id="civilization2" class="civilization blue"></div>
+    </div>
+    <div id="win-probability">
+        <p>Win Probability of Red: <span id="red-probability">0%</span></p>
+        <p>Win Probability of Blue: <span id="blue-probability">0%</span></p>
+    </div>
+    <div id="strength-display">
+        <div>
+            Red Strength: <span id="red-strength">100</span>
+            <div id="red-health-bar" class="health-bar" style="width: 100%; background-color: red;"></div>
+        </div>
+        <div>
+            Blue Strength: <span id="blue-strength">100</span>
+            <div id="blue-health-bar" class="health-bar" style="width: 100%; background-color: blue;"></div>
+        </div>
+    </div>
+    <button onclick="launchFireball('red')">Launch Fireball from Red</button>
+    <button onclick="launchFireball('blue')">Launch Fireball from Blue</button>
+    <script src="js/script_jogo_rede_neural(principal).js"></script>
+</body>
+</html>
