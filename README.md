@@ -1,4 +1,5 @@
-# Simulação de Civilizações
+
+# Simulação de Civilizações (sujeito a atualizações frequentes)
 
 ## Descrição
 
